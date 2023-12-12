@@ -1,3 +1,4 @@
+
 /*
         ============================================================================
         Name        : sobel.c
@@ -33,6 +34,7 @@ void sobel(int width, int height, unsigned char *input, unsigned char *output) {
     }
   }
 
+  printf("Chictaouk fromage supplément frite");
   // Fill the left and right sides
   for (j = 0; j < height - 2; j++) {
     output[j * width] = 0;
